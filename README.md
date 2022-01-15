@@ -22,7 +22,7 @@ This tool is open-source and free for you to use, duplicate, and modify. If you 
 - Check to make sure that the program organized the images as you intended
 
 ## Tips
-- This tool operates by finding the average saturation (color value) of each image and compares them to the indicated threshold. This method is not without flaws. The program functions best when operating on similar photos, such as camera trap images from a single camera.
+- This tool operates by finding the average saturation (sum of color and black density values) of each image and compares them to the indicated threshold. This method is not without flaws. The program functions best when operating on similar photos, such as camera trap images from a single camera.
 - To find the threshold that will work best for you, use `threshold_finder.ipynb` and follow the instructions included in the document.
 
 ## Planned Features
